@@ -20,13 +20,7 @@ public class FunctionTest {
         System.out.println("Number that greater than 5:");
         eval(list, n -> n >5);
     }
-	/*
-	 * Predicate 是 Java 提供的一个函数式接口，他接受一个参数 t，并执行断言操作返回一个 boolean。接口内容如下:
-	 * @FunctionalInterface
-		public interface Predicate<T> {
-	   		boolean test(T t);
-		}
-	 */
+
 	
     public static void eval(List<Integer> list,Predicate<Integer> predicate){
         for(Integer n:list){
